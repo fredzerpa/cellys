@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(../img/Background.jpg);
+    background-size: cover;
+    height: 100% !important;
+}
+
+main {
+    height: 90vh;
+}
+
+
+/*Sidenav*/
+
+.barra-izquierda {
+    background-color: #1b1b1b !important;
+    box-shadow: none !important;
+}
+
+.fondo {
+    padding: 0 !important;
+    background-color: #1b1b1b !important;
+    height: 65px;
+}
+
+.LogoEmpleados {
+    width: 100px!important;
+    height: 50px !important;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+.PanelDeControl {
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-weight: 100;
+}
+
+.ocultar {
+    display: none !important;
+}
+
+.Menu-sidenav li {
+    border-bottom: 1px solid black !important;
+}
+
+.HoverEmpleados {
+    transition: all ease 1s;
+    color: white !important;
+    font-weight: 100;
+}
+
+.HoverEmpleados:hover, .HoverEmpleados.active {
+    background-color: #3f3e3e !important;
+    border-left: 2px solid #42a5f5;
+}
+
+.HoverEmpleados a {
+    background-color: #3f3e3e !important;
+}
+
+.gestionar {
+    background-color: #c0b6a5 !important;
+    font-weight: 100 !important;
+    color: rgba(0, 0, 0) !important;
+}
+
+.gestionar:hover, .gestionar.active {
+    background-color: #dddcdc !important;
+}
+
+
+/*Main Taller*/
+
+header,
+main,
+footer {
+    padding-left: 300px !important;
+}
+
+.contenedor {
+    padding: 1px !important;
+    border-radius: 5px;
+    font-weight: 100;
+    color: #5d6678;
+}
+
+.contenedor h5 {
+    margin-left: 20px !important;
+}
+
+.contenedor h4 {
+    margin-left: 20px !important;
+}
+
+.contenedor img {
+    height: 150px !important;
+}
+
+
+/*Responsive Taller*/
+
+@media only screen and (max-width: 1288px) {
+    .menu-escritorio li a {
+        font-size: 10px;
+        padding: 0 2px !important;
+        margin: 0 !important;
+        right: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    header,
+    main,
+    footer {
+        padding-left: 0 !important;
+    }
+    .ocultar {
+        display: block !important;
+    }
+}
+
+
+/*Main Entrega*/
+
+@media only screen and (max-width: 600px) {
+    table {
+        font-size: 10px;
+    }
+    .contcard{
+        margin-left: 0;
+    }
+}
+
+
+/*Main Envio*/
+
+.botonesEnvios a {
+    background-color: #853628!important;
+}
+
+.botonesEnvios a:hover {
+    transform: scale(1.1) !important;
+    background-color: #bf7b54 !important;
+}
