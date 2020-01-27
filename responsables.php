@@ -2,19 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cellys</title>
-    <!--Icon-->
-    <link rel="icon" href="img/Favicon.ico">
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <!--Import google Font-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap" rel="stylesheet">
+    <title>Cellys - Admin</title>
+    
+    <!-- Metas && Imports -->
+    <?php require_once('./components/head.html'); ?>
+
     <!--Styles-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-Usuarios.css">
@@ -181,14 +173,9 @@
     </main>
     <!--End Contenido-->
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js "></script>
-    <!--Js-->
-    <script src="js/main.js"></script>
-    <script>
-    </script>
-    <!--Jquery-->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js " integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=" anonymous "></script>
+    <!-- Footer Scripts -->
+    <?php require_once('./components/footer-scripts.html'); ?>
+    
 </body>
 
 </html>
